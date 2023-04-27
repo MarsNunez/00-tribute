@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  background: #f9f8f8;
+}
+
+.title-container::after {
+  content: "";
+  display: inline-block;
+  border-radius: 3px;
+  height: 7px;
+  width: 100%;
+  background-color: #00c441c6 !important;
+  position: relative;
+  top: -20px;
+  z-index: -10;
+  background-clip: content-box !important;
+}
