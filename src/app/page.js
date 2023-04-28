@@ -1,8 +1,8 @@
-"use client";
-import { useState } from "react";
+// "use client";
+// import { useState } from "react";
 
 export default function Home() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   return (
     <div id="home">
@@ -11,13 +11,13 @@ export default function Home() {
           <h1>Mars.dev</h1>
           <i
             className="lni lni-menu text-2xl cursor-pointer"
-            onClick={() => setShow(!show)}
+            // onClick={() => setShow(!show)}
           ></i>
         </div>
       </nav>
 
       {/* Side Options */}
-      <div
+      {/* <div
         className={`absolute w-full -top-0 ${
           show ? "left-0" : "-left-[100%]"
         } duration-300 ease-in-out`}
@@ -46,7 +46,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Hero */}
       <section className="py-8 pb-28 bg-[#f9f8f8]">
